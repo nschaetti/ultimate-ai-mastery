@@ -4,9 +4,11 @@
 
 Detailed curriculum with objectives, learning paths, teaching guidelines, an initial domain matrix for the five libraries, starting sources, and templates. This stage does not deliver the lessons themselves.
 
-## 1 — First complete chapter
+## 1 — First complete chapter: delivered
 
-Lock and validate the scientific computing environment. Establish the first versioned NumPy inventory. Write NP-01: the mental model of `ndarray`, shapes, axes, and types; a worked example, exercises, solutions, a review note, and precise sources. Verify execution from a fresh kernel and use this chapter to adjust the teaching level.
+[NP-01](../notebooks/numpy/01-ndarray/README.md) includes explanations, worked examples, nine exercises, solutions, two figures, a review note, and versioned sources. A locked NumPy foundations environment and [execution evidence](../validation/NP-01.md) are available. Validation used a fresh in-process kernel because separate-kernel sockets are unavailable in the execution environment.
+
+The chapter-level API ledger is delivered; the exhaustive versioned NumPy inventory remains pending. Next: use NP-01 to assess teaching depth, establish that broader inventory, and develop NP-02 creation/conversion.
 
 ## 2 — Back to the libraries' foundations
 

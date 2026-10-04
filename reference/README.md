@@ -1,7 +1,22 @@
 # Reference book
 
-Two indexes will grow as lessons are written: **concepts** (broadcasting, gradients, attention, scores, latent dynamics…) and **APIs** (symbol + version → note and lesson). They have not been populated yet.
+Use a review note to reconstruct an idea before reopening the full lesson. The indexes below grow with the curriculum; they are not an exhaustive API reference yet.
 
-A note can be revisited independently of the curriculum and must make it possible to reconstruct its central idea in a few minutes. It contains an intuition, essential conventions and equations, a minimal example, a pitfall, and an active-recall question. Use the [template](../templates/reference.md).
+## Concept index
 
-For now, find a topic in the [curriculum](../docs/CURRICULUM.md) and an API family in the [domain matrix](../coverage/DOMAINS.md). Once a note exists, link it to its lesson in both directions. Do not create hundreds of empty notes that make the book look complete.
+| Concepts | Review note | Practice |
+|---|---|---|
+| Array metadata; scalars, vectors, and empty shapes | [NP-01 review](numpy/ndarray-shapes-axes-dtypes.md) | E01–E02 |
+| Reduction axes and retained dimensions | [NP-01 review](numpy/ndarray-shapes-axes-dtypes.md) | E03–E04 |
+| Reshaping versus axis permutation | [NP-01 review](numpy/ndarray-shapes-axes-dtypes.md) | E05 |
+| Integer limits, conversion, and floating precision | [NP-01 review](numpy/ndarray-shapes-axes-dtypes.md) | E06–E08 |
+| Shape-aware image preprocessing | [NP-01 review](numpy/ndarray-shapes-axes-dtypes.md) | E09 |
+
+## API index — NumPy 2.3.5
+
+| API family | Entry point |
+|---|---|
+| `ndarray.shape`, `ndim`, `size`, `dtype`, `itemsize`, `nbytes` | [Review note](numpy/ndarray-shapes-axes-dtypes.md), E01 |
+| `reshape`, `mean`, `transpose`, `astype`, `iinfo`, `finfo` | [Lesson API map](../notebooks/numpy/01-ndarray/lesson.ipynb), [scope ledger](../coverage/numpy/2.3.5-NP-01.json) |
+
+Supporting APIs are introduced selectively in NP-01; their complete signatures and behavior belong to later dedicated chapters. For planned material, use the [curriculum](../docs/CURRICULUM.md) and [domain matrix](../coverage/DOMAINS.md). Future notes follow the [template](../templates/reference.md).

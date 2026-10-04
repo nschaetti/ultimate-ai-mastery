@@ -2,7 +2,7 @@
 
 ## Back to the foundations
 
-Start with FND, then NP. Alternate PD and MPL using data produced in NP. MATH chapters can be studied in parallel: vectors and derivatives before autograd, probability before statistical objectives. Study PT and JX as libraries in their own right, then NN and REP.
+Start with FND, then NP. [NP-01 is available](../notebooks/numpy/01-ndarray/README.md) with explicit Python prerequisites; the FND units are still planned. Alternate PD and MPL using data produced in NP. MATH chapters can be studied in parallel: vectors and derivatives before autograd, probability before statistical objectives. Study PT and JX as libraries in their own right, then NN and REP.
 
 The depth of library coverage is independent of the learning order: distributed computing, extensions, and backend chapters can be revisited later, but remain in scope.
 
@@ -21,7 +21,7 @@ Each notebook's prerequisites must use lesson identifiers. This table describes 
 
 ## Reference book mode
 
-Find the concept in `reference/`, read the note, reproduce its minimal example without looking, then open the lesson if a step cannot be explained. Look up a symbol in its versioned inventory to find the lesson and exercises. Initially, these indexes are places to fill, not an already populated search engine.
+Find the concept in `reference/`, read the note, reproduce its minimal example without looking, then open the lesson if a step cannot be explained. Look up a symbol in its versioned inventory to find the lesson and exercises. The first index entries cover NP-01; other entries will be added as lessons are written.
 
 ## Personal validation
 

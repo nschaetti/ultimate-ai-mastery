@@ -4,12 +4,13 @@
   "domains": [
     {
       "library": "numpy",
-      "target_version": null,
+      "target_version": "2.3.5",
       "domain": "The ndarray model",
       "planned_unit_id": "NP-01",
-      "status": "planned",
+      "status": "validated",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
-      "symbol_inventory_status": "not_started"
+      "symbol_inventory_status": "chapter_ledger_only",
+      "validation_evidence": "validation/NP-01.json"
     },
     {
       "library": "numpy",

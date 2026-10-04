@@ -1,6 +1,6 @@
 # Detailed curriculum
 
-All items below are **planned**, not yet written. Each row is a learning unit that may require several notebooks. Stable identifiers will connect prerequisites, exercises, reference notes, and inventories. Specialized chapters remain in scope even when their implementation comes later.
+**NP-01 is validated** and available in the [chapter guide](../notebooks/numpy/01-ndarray/README.md); all other units are **planned**, not yet written. Each row is a learning unit that may require several notebooks. Stable identifiers will connect prerequisites, exercises, reference notes, and inventories. Specialized chapters remain in scope even when their implementation comes later.
 
 The five library blocks are independent, in-depth learning paths. This curriculum organizes the material; only a versioned public API inventory can demonstrate exhaustive API coverage.
 
@@ -23,7 +23,7 @@ The five library blocks are independent, in-depth learning paths. This curriculu
 
 | Unit | Chapter / subchapter | Observable objective |
 |---|---|---|
-| NP-01 | The ndarray model | Explain shape, ndim, size, axes, dtype, and memory representation. |
+| [NP-01](../notebooks/numpy/01-ndarray/README.md) | The ndarray model — validated | Explain shape, ndim, size, axes, dtype, and memory representation. |
 | NP-02 | Creation and conversion | Choose constructors, conversions, and array creation routines according to the required guarantees. |
 | NP-03 | Types and promotion | Predict promotion, casting, overflow, and numerical precision. |
 | NP-04 | Indexing and selection | Compare slicing, advanced indexing, masks, take, and updates. |

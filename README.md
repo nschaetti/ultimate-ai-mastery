@@ -18,7 +18,9 @@ This repository serves two purposes: **a guided notebook curriculum** and **a pe
 
 ## Actual repository status
 
-This initial version establishes the plan, conventions, domain matrix, and templates. **Curriculum chapters have not been written yet.** Templates are not completed lessons. The exhaustive library symbol inventories and locked environments still need to be built and verified.
+**NP-01 is available:** [ndarray, shapes, axes, and dtypes](notebooks/numpy/01-ndarray/README.md), with a guided lesson, nine exercises, worked solutions, and a review note. The solution passed all checks in a fresh in-process kernel; [validation details](validation/NP-01.md) record the environment and limitations.
+
+The other 202 curriculum units remain planned. Templates are not completed lessons. A NumPy foundations environment is version-locked; other environments and exhaustive library symbol inventories remain to be established.
 
 Each library has its own in-depth learning path: **NumPy, pandas, Matplotlib, PyTorch, and JAX**. Coverage is not limited to functions used in the AI projects. SciPy, tokenization tools, and related ecosystems will be explicitly added to the scope when a chapter requires them.
 

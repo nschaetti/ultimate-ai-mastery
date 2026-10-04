@@ -1,5 +1,9 @@
 # Curriculum notebooks
 
-Lessons will be organized by block and subchapter, for example `numpy/01-ndarray/lesson.ipynb` and `numpy/01-ndarray/solution.ipynb`. Each folder may include lightweight figures and a local README if needed.
+Lessons are organized by block and subchapter, with adjacent learner and solution notebooks.
 
-This version does not contain any lessons yet. The [templates](../templates/README.md) establish the structure to follow. The [detailed curriculum](../docs/CURRICULUM.md) describes planned units and their verifiable objectives.
+| Unit | Topic | Materials | Status |
+|---|---|---|---|
+| NP-01 | ndarray, shapes, axes, and dtypes | [Guide](numpy/01-ndarray/README.md), [lesson](numpy/01-ndarray/lesson.ipynb), [solutions](numpy/01-ndarray/solution.ipynb) | Validated; see [evidence](../validation/NP-01.md) |
+
+The [detailed curriculum](../docs/CURRICULUM.md) describes the remaining planned units. The [templates](../templates/README.md) and [teaching guidelines](../docs/PEDAGOGY.md) define the authoring format.

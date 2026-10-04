@@ -1,0 +1,28 @@
+{
+  "unit_id": "NP-01",
+  "status": "passed",
+  "validated_at_utc": "2026-10-04T13:40:39.865940+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "machine": "x86_64",
+  "device": "CPU",
+  "packages": {
+    "numpy": "2.3.5",
+    "matplotlib": "3.10.8",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  },
+  "lock_sha256": "140cd80a6872c85fe86efb03d200f07beb2ff920e2ed08e28a977da21a8e8c7e",
+  "solution_source_sha256": "bec07d078c4101758e10ae714bdd8b5ade6c227355ea8f6985b1b72344358b90",
+  "code_cells_executed": 31,
+  "exercise_checks_passed": 9,
+  "embedded_figures": 2,
+  "wall_seconds_including_kernel_start": 0.798,
+  "kernel_peak_rss_mib": 96.61,
+  "memory_measurement": "Linux resource.ru_maxrss; includes imports and rendering and, for inprocess, the validator itself",
+  "execution_engine": "inprocess",
+  "execution_limitations": "Separate Jupyter socket transport unavailable in the validation environment; in-process kernel checks cell execution, not a browser front end",
+  "command": "python tools/validate_np01.py --engine inprocess",
+  "learner_notebook": "Schema and exercise alignment validated; intentionally incomplete, not executed as a completed lesson"
+}

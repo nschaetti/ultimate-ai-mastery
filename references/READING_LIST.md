@@ -30,3 +30,7 @@ The years above refer to the first arXiv version, not necessarily the year of co
 ## Readings to add
 
 Chapter-specific bibliographies for autograd, contrastive learning, distillation, attention variants, RL, VAEs, score matching, rectified flows, video world models, and video/action JEPA variants will be established as those chapters are written. Their absence here does not exclude them from the curriculum.
+
+## NP-01 — versioned chapter sources
+
+NP-01 uses the NumPy 2.3 documentation and executes against NumPy 2.3.5. Its [lesson](../notebooks/numpy/01-ndarray/lesson.ipynb) links each explanation to the relevant API page and closes with essential and further readings. The [review note](../reference/numpy/ndarray-shapes-axes-dtypes.md) retains the principal sources for quick consultation. The global `stable` index above is not the version lock for this chapter.

@@ -66,10 +66,11 @@
       "block": "NP",
       "title": "The ndarray model",
       "objective": "Explain shape, ndim, size, axes, dtype, and memory representation.",
-      "status": "planned",
-      "lesson_path": null,
-      "solution_path": null,
-      "reference_path": null
+      "status": "validated",
+      "lesson_path": "notebooks/numpy/01-ndarray/lesson.ipynb",
+      "solution_path": "notebooks/numpy/01-ndarray/solution.ipynb",
+      "reference_path": "reference/numpy/ndarray-shapes-axes-dtypes.md",
+      "validation_evidence": "validation/NP-01.json"
     },
     {
       "id": "NP-02",

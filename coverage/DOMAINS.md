@@ -1,10 +1,10 @@
 # Initial domain matrix
 
-**Planning matrix, not an exhaustive symbol inventory.** All rows are `planned`. Target versions will be selected after installation and verification; this table alone does not establish coverage of any function.
+**Domain matrix, not an exhaustive symbol inventory.** NP-01 is validated against NumPy 2.3.5; other rows remain `planned`. The [chapter ledger](numpy/2.3.5-NP-01.json) records the limited lesson scope. A validated domain-level lesson does not imply exhaustive coverage of every related API member.
 
 | Library | Domain | Planned unit | Status |
 |---|---|---|---|
-| numpy | The ndarray model | NP-01 | planned |
+| numpy | The ndarray model | [NP-01](../notebooks/numpy/01-ndarray/README.md) | validated |
 | numpy | Creation and conversion | NP-02 | planned |
 | numpy | Types and promotion | NP-03 | planned |
 | numpy | Indexing and selection | NP-04 | planned |

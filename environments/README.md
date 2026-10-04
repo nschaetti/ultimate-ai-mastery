@@ -1,9 +1,19 @@
 # Reproducible environments
 
-Status: to be established. No set of versions has yet been installed and validated for the curriculum. The reading list's `stable` and `latest` links are entry points, not dependency locks.
+## Available: NumPy foundations
 
-Plan a scientific computing/NumPy/pandas/Matplotlib environment, a PyTorch environment, and a JAX environment, each with an identifiable Jupyter kernel. This allows their acceleration requirements to be managed independently. Do not install or modify system drivers from a notebook.
+- Runtime validated: CPython 3.12.14, Linux x86_64, CPU.
+- NumPy 2.3.5 and Matplotlib 3.10.8.
+- [Direct dependencies](numpy-foundations.in).
+- [Exact installed dependency versions](numpy-foundations-py312-linux.lock.txt), including transitive dependencies.
+- [Setup instructions](../notebooks/numpy/01-ndarray/README.md) and [validation evidence](../validation/NP-01.md).
 
-Before the first validated chapter, create dependency files and exact locks; test imports and a representative CPU operation. Add GPU profiles only after verification on the target hardware. Chapters must record the versions actually executed, not the version assumed to be the latest.
+The lock records package versions, not wheel hashes or the OS image. It is a tested Linux/Python 3.12 environment, not a claim of bit-identical execution on every platform. Run `pip check` after installation. A browser notebook UI is not included; use an existing Jupyter installation or editor with the registered kernel.
 
-For each experiment: seed, data provenance/license, execution command, versions, hardware, observed duration, and peak memory if measured. Exact numerical reproducibility can vary by hardware, backend, and operation; document tolerances. Large datasets and weights stay out of Git. Their download must be explicit.
+## Still planned
+
+A broader scientific computing environment including pandas, plus independent PyTorch and JAX environments. No versions for those future environments are declared validated. Documentation links using `stable` or `latest` remain entry points, not dependency locks.
+
+Do not install or modify system drivers from a notebook. Add GPU profiles only after verification on target hardware. Record the versions actually executed, rather than assuming the latest version.
+
+For each experiment: seed when randomness is used, data provenance/license, execution command, versions, hardware, observed duration, and peak memory if measured. Exact numerical reproducibility can vary by hardware, backend, and operation; document tolerances. Large datasets and weights stay out of Git, with explicit download instructions.

@@ -2,7 +2,7 @@
 
 ## Initial status
 
-[DOMAINS.md](DOMAINS.md) and [domains.json](domains.json) define a **domain-level planning matrix**. They are not yet an exhaustive inventory of functions, classes, attributes, and methods. No symbol coverage percentage is reported until the denominator has been established. A `planned` entry does not mean that a topic has been explained.
+[DOMAINS.md](DOMAINS.md) and [domains.json](domains.json) define a **domain-level planning and progress matrix**. NP-01 has a [curated chapter ledger](numpy/2.3.5-NP-01.json) linked to executed checks; it is not the full versioned NumPy inventory. They are not yet an exhaustive inventory of functions, classes, attributes, and methods. No symbol coverage percentage is reported until the denominator has been established. A `planned` entry does not mean that a topic has been explained.
 
 ## Scope
 
