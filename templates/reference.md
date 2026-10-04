@@ -1,31 +1,31 @@
-# [Concept ou symbole — version]
+# [Concept or symbol — version]
 
-Statut : gabarit à remplir. Leçon : [chemin à ajouter].
+Status: template to fill in. Lesson: [path to add].
 
-## Le problème
+## The problem
 
-[Quel besoin concret cette notion résout-elle ?]
+[What concrete need does this concept address?]
 
-## L'intuition
+## The intuition
 
-[Explication courte avec un exemple, sans présupposer le vocabulaire à expliquer.]
+[A short explanation with an example, without presupposing the vocabulary being explained.]
 
-## À reconstruire
+## Reconstruct it
 
-[Définitions, formes, hypothèses, équations et dérivation minimale.]
+[Definitions, shapes, assumptions, equations, and a minimal derivation.]
 
-## Exemple minimal
+## Minimal example
 
-[Code autonome, résultat et interprétation. Pour une API : mutation/copie, dtype, device et comportement aux limites.]
+[Standalone code, its result, and interpretation. For an API: mutation/copying, dtype, device, and edge-case behavior.]
 
-## Piège et contre-exemple
+## Pitfall and counterexample
 
-[Quand l'intuition naïve échoue-t-elle ?]
+[When does the naive intuition fail?]
 
-## Rappel actif
+## Active recall
 
-[Question ou petit problème à résoudre sans consulter la solution.]
+[A question or small problem to solve without consulting the solution.]
 
-## Sources et approfondissement
+## Sources and further study
 
-[Source primaire, version, section, date de consultation ; liens vers leçon, corrigé et notions connexes.]
+[Primary source, version, section, access date; links to the lesson, solution, and related concepts.]

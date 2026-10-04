@@ -1,53 +1,53 @@
-# Contrat pédagogique
+# Teaching guidelines
 
-## Comprendre, reconstruire, retrouver
+## Understand, reconstruct, revisit
 
-Une leçon doit permettre de répondre à quatre questions : quel problème résout-on, comment la méthode fonctionne-t-elle, comment la reconstruire, quand échoue-t-elle ? La fiche de rappel permet une relecture rapide ; le notebook contient la démonstration et les expériences. Une fiche renvoie toujours à la leçon et aux sources. « Livre de Feynman » désigne ici cette pratique personnelle de reconstruction et d'explication, sans attribution d'une méthode précise à Feynman.
+A lesson must answer four questions: what problem are we solving, how does the method work, how can we reconstruct it, and when does it fail? The review note supports a quick revisit; the notebook contains the derivation and experiments. A note always links to its lesson and sources. “Feynman book” here refers to this personal practice of reconstruction and explanation, without attributing a specific method to Feynman.
 
-## Anatomie d'une leçon
+## Anatomy of a lesson
 
-1. Identifiant stable, objectifs observables, prérequis exacts et lien vers le corrigé.
-2. Versions, matériel, données, budget mesuré après exécution et limites de l'expérience.
-3. Un problème concret et une prédiction à écrire avant de lancer le code.
-4. Une explication intuitive et un exemple minimal entièrement résolu.
-5. Une dérivation : symboles, dimensions, hypothèses, étapes intermédiaires et cas limites.
-6. Des exercices gradués : reconnaître, dériver, implémenter, diagnostiquer, transférer.
-7. Des tests sur des propriétés, des cas limites et une référence indépendante lorsque possible.
-8. Une expérience avec baseline, variable contrôlée, visualisation et interprétation.
-9. Une ablation ou un contre-exemple ; distinguer observation et explication supposée.
-10. Une synthèse rédigée par l'apprenant, sans copier les formules de la leçon.
-11. Une fiche de rappel et des lectures essentielles/approfondies, avec sections à lire.
+1. A stable identifier, observable objectives, exact prerequisites, and a link to the solution.
+2. Versions, hardware, data, a resource budget measured after execution, and experimental limitations.
+3. A concrete problem and a prediction to write before running the code.
+4. An intuitive explanation and a fully worked minimal example.
+5. A derivation: symbols, dimensions, assumptions, intermediate steps, and edge cases.
+6. Graded exercises: recognize, derive, implement, diagnose, and transfer.
+7. Tests of properties, edge cases, and an independent reference where possible.
+8. An experiment with a baseline, a controlled variable, visualization, and interpretation.
+9. An ablation or counterexample; distinguish observation from a proposed explanation.
+10. A learner-written summary without copying formulas from the lesson.
+11. A review note and essential/advanced readings with specific sections to read.
 
-## Exercices et indices
+## Exercises and hints
 
-Les cellules à compléter portent le tag `exercise` et un identifiant tel que `NP-04-E02`. Utiliser `raise NotImplementedError("NP-04-E02")` pour les fonctions incomplètes, jamais une implémentation fausse silencieuse. Les cellules de vérification portent le tag `check`. Les questions ouvertes portent `reflection` et demandent une justification, pas une réponse attendue unique.
+Cells to complete carry the `exercise` tag and an identifier such as `NP-04-E02`. Use `raise NotImplementedError("NP-04-E02")` for incomplete functions, never a silently incorrect implementation. Verification cells carry the `check` tag. Open-ended questions carry `reflection` and ask for justification rather than a single expected answer.
 
-Trois indices progressifs peuvent être placés dans des blocs Markdown repliables : idée utile, démarche, pseudocode. La solution complète reste dans le fichier voisin. Les exercices doivent porter sur les mécanismes, pas sur le recopiage d'un exemple ou la mémorisation d'une signature.
+Three progressive hints can appear in collapsible Markdown blocks: a useful idea, an approach, and pseudocode. The full solution stays in the adjacent file. Exercises must address mechanisms, not copying an example or memorizing a signature.
 
-Le notebook apprenant incomplet peut s'arrêter sur un exercice. Cela est attendu et ne doit pas être confondu avec un corrigé qui échoue. Ne jamais ignorer globalement les exceptions pour déclarer une exécution réussie.
+An incomplete learner notebook may stop at an exercise. This is expected and must not be confused with a failing solution notebook. Never globally ignore exceptions to declare an execution successful.
 
-## Corrigés
+## Solutions
 
-Conserver les mêmes identifiants et le même ordre que dans la leçon. Expliquer les choix, donner les résultats des vérifications, discuter au moins une erreur plausible et distinguer plusieurs solutions valides. Pour une expérience stochastique, fournir des plages ou tendances observées et les graines, pas une valeur arbitraire présentée comme universelle. Le corrigé doit s'exécuter depuis un kernel neuf, dans l'ordre, sans état caché.
+Keep the same identifiers and order as in the lesson. Explain choices, provide verification results, discuss at least one plausible mistake, and distinguish multiple valid solutions. For a stochastic experiment, provide observed ranges or trends and the seeds, not an arbitrary value presented as universal. The solution must run sequentially from a fresh kernel without hidden state.
 
-## Référence des bibliothèques
+## Library reference
 
-Chaque symbole public inventorié doit avoir une explication contextualisée : rôle, signature liée à sa version, entrées/sorties, formes et dtypes, mutation ou allocation, exemple minimal, pièges et alternatives. Plusieurs variantes proches peuvent partager une leçon, mais chaque variante garde une entrée et son comportement spécifique. Les sous-packages spécialisés restent dans le parcours, même s'ils n'interviennent pas dans un GPT.
+Every inventoried public symbol needs a contextualized explanation: purpose, version-specific signature, inputs/outputs, shapes and dtypes, mutation or allocation, a minimal example, pitfalls, and alternatives. Related variants may share a lesson, but each variant retains its own entry and specific behavior. Specialized subpackages remain in the curriculum even when they are not used in a GPT.
 
-## Sources et limites
+## Sources and limitations
 
-Privilégier documentation officielle, articles originaux et code des auteurs. Placer la source près de l'affirmation ou de l'équation concernée ; conserver URL, version/date, section et date de consultation. Distinguer résultat démontré, résultat expérimental des auteurs et interprétation pédagogique. Ne pas recopier des pages de documentation dans les notebooks.
+Prefer official documentation, original papers, and authors' code. Place sources near the claims or equations they support; record URL, version/date, section, and access date. Distinguish demonstrated results, the authors' experimental results, and teaching interpretations. Do not copy documentation pages into notebooks.
 
-Pour une méthode propriétaire, documenter les informations effectivement publiées et les inconnues. Une implémentation pédagogique doit décrire ses écarts au papier. Une prédiction vidéo n'est pas à elle seule une preuve de compréhension causale ; une chaîne de raisonnement produite n'est pas une lecture directe des calculs internes.
+For a proprietary method, document what has actually been published and what remains unknown. A teaching implementation must describe its deviations from the paper. Video prediction alone is not evidence of causal understanding; a generated reasoning trace is not a direct reading of internal computations.
 
-## Quand une leçon est-elle terminée ?
+## When is a lesson complete?
 
-- Texte, dérivations et sources relus ; dimensions et conventions cohérentes.
-- Objectifs reliés à des exercices et corrigés identifiés.
-- Corrigé exécuté depuis un kernel neuf dans l'environnement verrouillé.
-- Figures lisibles avec axes, unités, légendes et interprétation.
-- Budget réellement mesuré et limitations matérielles indiquées.
-- Fiche de rappel, navigation et couverture mises à jour.
-- Statut `validated` seulement avec preuve d'exécution : environnement, commande, date et résultat.
+- Text, derivations, and sources reviewed; dimensions and conventions consistent.
+- Objectives connected to identified exercises and solutions.
+- Solution executed from a fresh kernel in the locked environment.
+- Readable figures with axes, units, legends, and interpretation.
+- Resource budget actually measured and hardware limitations stated.
+- Review note, navigation, and coverage updated.
+- `validated` status only with execution evidence: environment, command, date, and result.
 
-Un statut décrit la qualité d'un contenu, pas la maîtrise de l'apprenant. Les auto-évaluations personnelles restent séparées et ne sont pas publiées automatiquement.
+A status describes content quality, not learner mastery. Personal self-assessments remain separate and are not published automatically.

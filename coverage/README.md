@@ -1,36 +1,36 @@
-# Une couverture exhaustive, mesurable et versionnée
+# Exhaustive, measurable, versioned coverage
 
-## État initial
+## Initial status
 
-[DOMAINS.md](DOMAINS.md) et [domains.json](domains.json) définissent une **matrice de planification par domaine**. Ils ne constituent pas encore un inventaire exhaustif des fonctions, classes, attributs et méthodes. Aucun taux de couverture des symboles n'est annoncé tant que le dénominateur n'a pas été établi. Une entrée `planned` ne signifie pas que le sujet est expliqué.
+[DOMAINS.md](DOMAINS.md) and [domains.json](domains.json) define a **domain-level planning matrix**. They are not yet an exhaustive inventory of functions, classes, attributes, and methods. No symbol coverage percentage is reported until the denominator has been established. A `planned` entry does not mean that a topic has been explained.
 
-## Périmètre
+## Scope
 
-Objectif : passer en revue toute l'API Python publique documentée de NumPy, pandas, Matplotlib, PyTorch et JAX pour les versions retenues, y compris les méthodes des classes et les sous-packages spécialisés. Les propriétés et constantes documentées font partie de la référence. Les API expérimentales et obsolètes ont des catégories distinctes. Les alias sont inventoriés avec une cible canonique, pas effacés.
+Goal: review the entire documented public Python API of NumPy, pandas, Matplotlib, PyTorch, and JAX for the selected versions, including class methods and specialized subpackages. Documented properties and constants belong in the reference. Experimental and deprecated APIs have separate categories. Aliases are inventoried with a canonical target, not removed.
 
-Les interfaces C/C++, les extensions, les backends et les mécanismes internes ont des chapitres dédiés. Leur éventuel inventaire symbole par symbole est un périmètre distinct de celui de l'API Python. Les éléments privés non documentés ne sont pas une API stable à mémoriser. Toute exclusion doit être visible et motivée ; elle ne doit pas être comptée comme une leçon terminée.
+C/C++ interfaces, extensions, backends, and internal mechanisms have dedicated chapters. Any symbol-by-symbol inventory of these interfaces is a separate scope from the Python API. Undocumented private elements are not a stable API to memorize. Every exclusion must be visible and justified; it must not be counted as a completed lesson.
 
-## Construire l'inventaire
+## Building the inventory
 
-1. Installer et tester un ensemble cohérent de versions ; verrouiller les dépendances et enregistrer Python, OS, architecture et accélérateur.
-2. Utiliser les index de documentation de cette version et, lorsqu'il existe, son inventaire Sphinx `objects.inv`. Archiver URL, date et empreinte du fichier source d'inventaire.
-3. Filtrer les objets documentaires : un inventaire Sphinx contient aussi des titres et labels. Récupérer les membres documentés des classes et contrôler les rubriques absentes. L'introspection seule manque des API dynamiques et expose des détails privés : elle sert de complément.
-4. Réconcilier symboles, alias, méthodes héritées, signatures multiples et sous-packages ; vérifier les ajouts et suppressions contre la version précédente.
-5. Affecter chaque symbole à une leçon et à une fiche ; conserver les entrées non affectées dans un backlog explicite.
-6. Vérifier les liens et les preuves avant de calculer une couverture.
+1. Install and test a coherent set of versions; lock dependencies and record Python, OS, architecture, and accelerator.
+2. Use that version's documentation indexes and, where available, its Sphinx `objects.inv` inventory. Record the URL, access date, and checksum of the source inventory file.
+3. Filter documentation objects: a Sphinx inventory also contains headings and labels. Retrieve documented class members and check for missing sections. Introspection alone misses dynamic APIs and exposes private details; use it as a supplement.
+4. Reconcile symbols, aliases, inherited methods, overloaded signatures, and subpackages; check additions and removals against the previous version.
+5. Assign each symbol to a lesson and reference note; keep unassigned entries in an explicit backlog.
+6. Verify links and evidence before calculating coverage.
 
-## Format d'une future entrée de symbole
+## Format of a future symbol entry
 
-Champs requis : `library`, `version`, `symbol`, `kind`, `canonical_symbol`, `public_status`, `source_url`, `source_section`, `retrieved_at`, `lesson_id`, `reference_path`, `exercise_ids`, `explanation_status`, `exercise_status`, `solution_status`, `validation_evidence`, `exclusion_reason`.
+Required fields: `library`, `version`, `symbol`, `kind`, `canonical_symbol`, `public_status`, `source_url`, `source_section`, `retrieved_at`, `lesson_id`, `reference_path`, `exercise_ids`, `explanation_status`, `exercise_status`, `solution_status`, `validation_evidence`, `exclusion_reason`.
 
-Un champ inconnu vaut `null`, jamais une valeur inventée. Les inventaires d'une version publiée ne sont pas écrasés par les évolutions de `stable` ou `latest`.
+An unknown field is `null`, never an invented value. Inventories for a published version are not overwritten when `stable` or `latest` changes.
 
-## Statuts et indicateurs
+## Statuses and metrics
 
-- `planned` : contenu identifié, non rédigé.
-- `draft` : contenu en cours, non validé.
-- `reviewed` : contenu relu, exécution pas encore certifiée.
-- `validated` : contenu relu et preuve de validation disponible.
-- `deprecated` / `experimental` : propriétés de l'API, indépendantes de la maturité du contenu.
+- `planned`: content identified, not written.
+- `draft`: content in progress, not validated.
+- `reviewed`: content reviewed, execution not yet certified.
+- `validated`: content reviewed and validation evidence available.
+- `deprecated` / `experimental`: API properties, independent of content maturity.
 
-Publier séparément : symboles inventoriés, symboles expliqués, symboles exercés, corrigés validés et exclusions. Le dénominateur de couverture reste l'ensemble des symboles publics documentés dans la catégorie considérée. Afficher à part les API expérimentales, obsolètes et spécialisées. Ne jamais transformer « 100 % des lignes remplies » en « 100 % des fonctions maîtrisées ».
+Report separately: inventoried symbols, explained symbols, symbols practiced in exercises, validated solutions, and exclusions. The coverage denominator remains the set of documented public symbols in the relevant category. Display experimental, deprecated, and specialized APIs separately. Never turn “100% of rows filled in” into “100% of functions mastered.”

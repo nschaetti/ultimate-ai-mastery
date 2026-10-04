@@ -1,25 +1,25 @@
-# Feuille de route
+# Roadmap
 
-## 0 — Architecture du livre : livré
+## 0 — Book architecture: delivered
 
-Sommaire détaillé avec objectifs, parcours, contrat pédagogique, matrice initiale des domaines des cinq bibliothèques, sources de départ et gabarits. Cette étape ne livre pas les leçons elles-mêmes.
+Detailed curriculum with objectives, learning paths, teaching guidelines, an initial domain matrix for the five libraries, starting sources, and templates. This stage does not deliver the lessons themselves.
 
-## 1 — Premier chapitre complet
+## 1 — First complete chapter
 
-Figer et valider l'environnement scientifique. Établir le premier inventaire NumPy versionné. Rédiger NP-01 : modèle mental de `ndarray`, formes, axes et types ; exemple résolu, exercices, corrigé, fiche de rappel et sources précises. Vérifier l'exécution depuis un kernel neuf et ajuster le niveau pédagogique sur ce chapitre.
+Lock and validate the scientific computing environment. Establish the first versioned NumPy inventory. Write NP-01: the mental model of `ndarray`, shapes, axes, and types; a worked example, exercises, solutions, a review note, and precise sources. Verify execution from a fresh kernel and use this chapter to adjust the teaching level.
 
-## 2 — Retour aux sources des bibliothèques
+## 2 — Back to the libraries' foundations
 
-Développer NP, PD et MPL, puis PT et JX. Établir les inventaires versionnés pour chacune. Traiter les domaines spécialisés comme de vrais chapitres ; ne pas les éliminer parce qu'ils sont peu utilisés en deep learning. Ajouter les environnements et validations au fur et à mesure.
+Develop NP, PD, and MPL, then PT and JX. Establish a versioned inventory for each library. Treat specialized domains as real chapters; do not remove them because they are rarely used in deep learning. Add environments and validation as the content develops.
 
-## 3 — Fondations des modèles
+## 3 — Model foundations
 
-MATH, NN, REP, ATT et bases RL ; mini-projets reconstruits sans bibliothèque de modèles de haut niveau. Faire apparaître les liens entre opérations, dérivées, objectifs et implémentations.
+MATH, NN, REP, ATT, and RL fundamentals; rebuild small projects without high-level model libraries. Make the connections between operations, derivatives, objectives, and implementations explicit.
 
-## 4 — Branches avancées
+## 4 — Advanced branches
 
-LM/FB/RSN et GEN/DIFF/FLOW, puis WM/JEPA. Les implémentations de recherche utilisent des protocoles contrôlés, des baselines et des ablations. Toute veille ajoute une méthode datée et sourcée ; elle ne remplace pas les bases à chaque nouvelle annonce.
+LM/FB/RSN and GEN/DIFF/FLOW, then WM/JEPA. Research implementations use controlled protocols, baselines, and ablations. New developments add a dated, sourced method; they do not replace the foundations with every announcement.
 
-## 5 — Projets et entretien du livre
+## 5 — Projects and book maintenance
 
-Projets comparatifs, index de rappel complet, recherche transversale et contrôle des changements d'API. Choisir un outil de publication du livre seulement lorsque les premiers notebooks sont validés ; GitHub et Jupyter restent les formats initiaux.
+Comparative projects, a complete review index, cross-topic search, and API change tracking. Choose a book publishing tool only once the first notebooks have been validated; GitHub and Jupyter remain the initial formats.

@@ -1,28 +1,28 @@
-# Parcours et prérequis
+# Learning paths and prerequisites
 
-## Retour aux sources
+## Back to the foundations
 
-Commencer par FND, puis NP. Alterner PD et MPL avec des données produites dans NP. Les chapitres MATH peuvent être étudiés en parallèle : vecteurs et dérivées avant l'autograd, probabilités avant les objectifs statistiques. Étudier PT et JX comme des bibliothèques à part entière, puis NN et REP.
+Start with FND, then NP. Alternate PD and MPL using data produced in NP. MATH chapters can be studied in parallel: vectors and derivatives before autograd, probability before statistical objectives. Study PT and JX as libraries in their own right, then NN and REP.
 
-La profondeur du parcours des bibliothèques est indépendante de l'ordre d'apprentissage : les chapitres de calcul distribué, d'extensions et de backends peuvent être repris plus tard, mais restent des éléments à couvrir.
+The depth of library coverage is independent of the learning order: distributed computing, extensions, and backend chapters can be revisited later, but remain in scope.
 
-## Branches de recherche
+## Research branches
 
-| Destination | Prérequis conceptuels | Progression |
+| Destination | Conceptual prerequisites | Progression |
 |---|---|---|
-| GPT et langage | NP, MATH, fondamentaux PT, NN | ATT → LM |
-| Feedback et raisonnement | LM, probabilités et évaluation | RL → FB → RSN |
-| Diffusion et flow matching | MATH, PT, NN ; REP utile pour les modèles latents | GEN → DIFF → FLOW |
-| World models | Probabilités, REP, bases RL et séquences | WM ; DIFF/FLOW pour les variantes génératives |
-| JEPA et planification latente | REP, ATT pour les encodeurs Transformer | JEPA ; WM et RL avant la planification |
-| Comparer les frameworks | NP, dérivées ; bases PT et JX | Refaire MLP et entraînement avec les mêmes données, puis expliquer les divergences |
+| GPT and language | NP, MATH, PT fundamentals, NN | ATT → LM |
+| Feedback and reasoning | LM, probability, and evaluation | RL → FB → RSN |
+| Diffusion and flow matching | MATH, PT, NN; REP is useful for latent models | GEN → DIFF → FLOW |
+| World models | Probability, REP, RL fundamentals, and sequences | WM; DIFF/FLOW for generative variants |
+| JEPA and latent planning | REP, ATT for Transformer encoders | JEPA; WM and RL before planning |
+| Comparing frameworks | NP, derivatives; PT and JX fundamentals | Rebuild an MLP and its training with the same data, then explain discrepancies |
 
-Les prérequis de chaque notebook devront être exprimés en identifiants de leçons. Ce tableau donne les dépendances entre blocs ; il n'impose pas de terminer tous les sous-packages de PyTorch avant d'étudier un Transformer.
+Each notebook's prerequisites must use lesson identifiers. This table describes dependencies between blocks; it does not require finishing every PyTorch subpackage before studying a Transformer.
 
-## Mode livre de référence
+## Reference book mode
 
-Chercher le concept dans `reference/`, lire la fiche, refaire son exemple minimal sans regarder, puis ouvrir la leçon si une étape ne peut pas être expliquée. Chercher un symbole dans l'inventaire de version pour retrouver sa leçon et ses exercices. Au démarrage, ces index sont des emplacements à enrichir, pas un moteur de recherche déjà alimenté.
+Find the concept in `reference/`, read the note, reproduce its minimal example without looking, then open the lesson if a step cannot be explained. Look up a symbol in its versioned inventory to find the lesson and exercises. Initially, these indexes are places to fill, not an already populated search engine.
 
-## Validation personnelle
+## Personal validation
 
-À la fin d'un bloc : expliquer une idée à voix haute, la reconstruire sans le corrigé, diagnostiquer un exemple volontairement défectueux, puis transférer la méthode à un autre jeu de données. Reprendre un ancien exercice après avoir oublié son code. La vitesse ou le nombre de notebooks ouverts ne constituent pas une mesure de maîtrise.
+At the end of a block: explain an idea aloud, reconstruct it without the solution, diagnose a deliberately broken example, then transfer the method to another dataset. Revisit an old exercise after forgetting its code. Speed and the number of notebooks opened are not measures of mastery.

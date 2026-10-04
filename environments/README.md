@@ -1,9 +1,9 @@
-# Environnements reproductibles
+# Reproducible environments
 
-Statut : à établir. Aucun ensemble de versions n'a encore été installé et validé pour le cursus. Les liens `stable` et `latest` de la bibliographie sont des points d'entrée, pas des verrous de dépendances.
+Status: to be established. No set of versions has yet been installed and validated for the curriculum. The reading list's `stable` and `latest` links are entry points, not dependency locks.
 
-Prévoir un environnement calcul scientifique/NumPy/pandas/Matplotlib, un environnement PyTorch et un environnement JAX, avec un noyau Jupyter identifiable pour chacun. Cela permet de gérer leurs contraintes d'accélération indépendamment. Ne pas installer ou modifier les pilotes du système depuis un notebook.
+Plan a scientific computing/NumPy/pandas/Matplotlib environment, a PyTorch environment, and a JAX environment, each with an identifiable Jupyter kernel. This allows their acceleration requirements to be managed independently. Do not install or modify system drivers from a notebook.
 
-Avant le premier chapitre validé, créer les fichiers de dépendances et leurs verrous exacts ; tester les imports et une opération représentative sur CPU. Ajouter des profils GPU seulement après vérification sur le matériel cible. Les chapitres devront enregistrer les versions effectivement exécutées, et non la version supposée la plus récente.
+Before the first validated chapter, create dependency files and exact locks; test imports and a representative CPU operation. Add GPU profiles only after verification on the target hardware. Chapters must record the versions actually executed, not the version assumed to be the latest.
 
-Pour chaque expérience : graine, provenance/licence des données, commande d'exécution, versions, matériel, durée observée et mémoire maximale si mesurée. La reproductibilité numérique exacte peut varier selon matériel, backend et opérations ; documenter les tolérances. Les jeux de données volumineux et poids restent hors Git. Leur téléchargement sera explicite.
+For each experiment: seed, data provenance/license, execution command, versions, hardware, observed duration, and peak memory if measured. Exact numerical reproducibility can vary by hardware, backend, and operation; document tolerances. Large datasets and weights stay out of Git. Their download must be explicit.

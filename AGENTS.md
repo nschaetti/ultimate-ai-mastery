@@ -1,6 +1,6 @@
 # Repository guidance
 
-- Write teaching prose in French. Keep API names, code comments and Google-style docstrings in English.
+- Write all repository content in English: teaching prose, exercises, solutions, reference notes, documentation, headings, and human-readable metadata. Keep code comments and Google-style docstrings in English as well.
 - Preserve the two purposes: a progressive notebook course and a revisitable reference book.
 - Follow `docs/PEDAGOGY.md`. Keep learner and solution notebooks adjacent with matching exercise IDs.
 - Cover the libraries themselves, including specialized public subpackages. Do not reduce the scope to APIs useful for a particular AI project.

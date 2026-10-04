@@ -5,7 +5,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Le modèle ndarray",
+      "domain": "The ndarray model",
       "planned_unit_id": "NP-01",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -14,7 +14,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Création et conversions",
+      "domain": "Creation and conversion",
       "planned_unit_id": "NP-02",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -23,7 +23,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Types et promotion",
+      "domain": "Types and promotion",
       "planned_unit_id": "NP-03",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -32,7 +32,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Indexation et sélection",
+      "domain": "Indexing and selection",
       "planned_unit_id": "NP-04",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -41,7 +41,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Vues, copies et strides",
+      "domain": "Views, copies, and strides",
       "planned_unit_id": "NP-05",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -50,7 +50,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Broadcasting et formes",
+      "domain": "Broadcasting and shapes",
       "planned_unit_id": "NP-06",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -59,7 +59,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Ufuncs et réductions",
+      "domain": "Ufuncs and reductions",
       "planned_unit_id": "NP-07",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -68,7 +68,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Assemblage et organisation",
+      "domain": "Assembly and organization",
       "planned_unit_id": "NP-08",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -77,7 +77,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Mathématiques, logique et ensembles",
+      "domain": "Mathematics, logic, and sets",
       "planned_unit_id": "NP-09",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -86,7 +86,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Tri, recherche et statistiques",
+      "domain": "Sorting, searching, and statistics",
       "planned_unit_id": "NP-10",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -95,7 +95,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Algèbre linéaire et contractions",
+      "domain": "Linear algebra and contractions",
       "planned_unit_id": "NP-11",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -104,7 +104,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Génération aléatoire",
+      "domain": "Random number generation",
       "planned_unit_id": "NP-12",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -113,7 +113,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Fourier et fenêtres",
+      "domain": "Fourier transforms and windows",
       "planned_unit_id": "NP-13",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -122,7 +122,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Polynômes et ajustement",
+      "domain": "Polynomials and fitting",
       "planned_unit_id": "NP-14",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -131,7 +131,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Chaînes, dates et tableaux structurés",
+      "domain": "Strings, dates, and structured arrays",
       "planned_unit_id": "NP-15",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -140,7 +140,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Tableaux masqués et domaines étendus",
+      "domain": "Masked arrays and extended domains",
       "planned_unit_id": "NP-16",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -149,7 +149,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Entrées-sorties et memmap",
+      "domain": "Input/output and memmap",
       "planned_unit_id": "NP-17",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -158,7 +158,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Typing, testing et configuration",
+      "domain": "Typing, testing, and configuration",
       "planned_unit_id": "NP-18",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -167,7 +167,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Interopérabilité et extensions",
+      "domain": "Interoperability and extensions",
       "planned_unit_id": "NP-19",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -176,7 +176,7 @@
     {
       "library": "numpy",
       "target_version": null,
-      "domain": "Audit des API spécialisées",
+      "domain": "Specialized API audit",
       "planned_unit_id": "NP-20",
       "status": "planned",
       "source_index": "https://numpy.org/doc/stable/reference/index.html",
@@ -185,7 +185,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Series, DataFrame et Index",
+      "domain": "Series, DataFrame, and Index",
       "planned_unit_id": "PD-01",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -194,7 +194,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Construction, types et conversion",
+      "domain": "Construction, types, and conversion",
       "planned_unit_id": "PD-02",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -203,7 +203,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Indexation et mutation",
+      "domain": "Indexing and mutation",
       "planned_unit_id": "PD-03",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -212,7 +212,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Valeurs manquantes",
+      "domain": "Missing values",
       "planned_unit_id": "PD-04",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -221,7 +221,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Calcul et statistiques",
+      "domain": "Computation and statistics",
       "planned_unit_id": "PD-05",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -239,7 +239,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Jointures et concaténation",
+      "domain": "Joins and concatenation",
       "planned_unit_id": "PD-07",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -248,7 +248,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Reshape et MultiIndex",
+      "domain": "Reshaping and MultiIndex",
       "planned_unit_id": "PD-08",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -257,7 +257,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Texte et catégories",
+      "domain": "Text and categories",
       "planned_unit_id": "PD-09",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -266,7 +266,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Temps et fuseaux horaires",
+      "domain": "Time and time zones",
       "planned_unit_id": "PD-10",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -275,7 +275,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Fenêtres",
+      "domain": "Windows",
       "planned_unit_id": "PD-11",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -284,7 +284,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Entrées-sorties",
+      "domain": "Input/output",
       "planned_unit_id": "PD-12",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -293,7 +293,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Visualisation et Styler",
+      "domain": "Visualization and Styler",
       "planned_unit_id": "PD-13",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -302,7 +302,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Performance et mémoire",
+      "domain": "Performance and memory",
       "planned_unit_id": "PD-14",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -311,7 +311,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Extensions, options et testing",
+      "domain": "Extensions, options, and testing",
       "planned_unit_id": "PD-15",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -320,7 +320,7 @@
     {
       "library": "pandas",
       "target_version": null,
-      "domain": "Audit des API et migrations",
+      "domain": "API audit and migrations",
       "planned_unit_id": "PD-16",
       "status": "planned",
       "source_index": "https://pandas.pydata.org/docs/reference/index.html",
@@ -329,7 +329,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Figure, Axes, Axis et Artist",
+      "domain": "Figure, Axes, Axis, and Artist",
       "planned_unit_id": "MPL-01",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -338,7 +338,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Courbes, marqueurs et erreurs",
+      "domain": "Lines, markers, and errors",
       "planned_unit_id": "MPL-02",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -347,7 +347,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Graphiques statistiques",
+      "domain": "Statistical plots",
       "planned_unit_id": "MPL-03",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -356,7 +356,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Images, grilles et contours",
+      "domain": "Images, grids, and contours",
       "planned_unit_id": "MPL-04",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -365,7 +365,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Couleurs et normalisation",
+      "domain": "Colors and normalization",
       "planned_unit_id": "MPL-05",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -374,7 +374,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Axes, échelles et ticks",
+      "domain": "Axes, scales, and ticks",
       "planned_unit_id": "MPL-06",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -383,7 +383,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Texte et annotations",
+      "domain": "Text and annotations",
       "planned_unit_id": "MPL-07",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -392,7 +392,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Disposition des figures",
+      "domain": "Figure layout",
       "planned_unit_id": "MPL-08",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -401,7 +401,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Transformations et géométrie",
+      "domain": "Transformations and geometry",
       "planned_unit_id": "MPL-09",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -410,7 +410,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Collections et tracés spécialisés",
+      "domain": "Collections and specialized plots",
       "planned_unit_id": "MPL-10",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -419,7 +419,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Styles et configuration",
+      "domain": "Styles and configuration",
       "planned_unit_id": "MPL-11",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -428,7 +428,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Animation et événements",
+      "domain": "Animation and events",
       "planned_unit_id": "MPL-12",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -437,7 +437,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "Backends et export",
+      "domain": "Backends and export",
       "planned_unit_id": "MPL-13",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -455,7 +455,7 @@
     {
       "library": "matplotlib",
       "target_version": null,
-      "domain": "API de bas niveau et audit",
+      "domain": "Low-level API and audit",
       "planned_unit_id": "MPL-15",
       "status": "planned",
       "source_index": "https://matplotlib.org/stable/api/index.html",
@@ -464,7 +464,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Tenseurs et dispositifs",
+      "domain": "Tensors and devices",
       "planned_unit_id": "PT-01",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -473,7 +473,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Indexation et opérations",
+      "domain": "Indexing and operations",
       "planned_unit_id": "PT-02",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -491,7 +491,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Dérivées avancées",
+      "domain": "Advanced derivatives",
       "planned_unit_id": "PT-04",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -500,7 +500,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Modules et paramètres",
+      "domain": "Modules and parameters",
       "planned_unit_id": "PT-05",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -509,7 +509,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Couches et fonctionnelles",
+      "domain": "Layers and functional operations",
       "planned_unit_id": "PT-06",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -518,7 +518,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Optimiseurs et schedules",
+      "domain": "Optimizers and schedules",
       "planned_unit_id": "PT-07",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -527,7 +527,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Données et parallélisme de chargement",
+      "domain": "Data and parallel loading",
       "planned_unit_id": "PT-08",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -536,7 +536,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Aléatoire et distributions",
+      "domain": "Randomness and distributions",
       "planned_unit_id": "PT-09",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -545,7 +545,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Algèbre, FFT et formats spécialisés",
+      "domain": "Algebra, FFT, and specialized formats",
       "planned_unit_id": "PT-10",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -554,7 +554,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Précision et mémoire",
+      "domain": "Precision and memory",
       "planned_unit_id": "PT-11",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -563,7 +563,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Programmation fonctionnelle",
+      "domain": "Functional programming",
       "planned_unit_id": "PT-12",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -572,7 +572,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Compilation et export",
+      "domain": "Compilation and export",
       "planned_unit_id": "PT-13",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -581,7 +581,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Profilage et benchmark",
+      "domain": "Profiling and benchmarking",
       "planned_unit_id": "PT-14",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -590,7 +590,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Calcul distribué",
+      "domain": "Distributed computing",
       "planned_unit_id": "PT-15",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -599,7 +599,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Sérialisation et déploiement",
+      "domain": "Serialization and deployment",
       "planned_unit_id": "PT-16",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -608,7 +608,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Backends et extensions",
+      "domain": "Backends and extensions",
       "planned_unit_id": "PT-17",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -617,7 +617,7 @@
     {
       "library": "torch",
       "target_version": null,
-      "domain": "Testing et audit des modules",
+      "domain": "Testing and module audit",
       "planned_unit_id": "PT-18",
       "status": "planned",
       "source_index": "https://docs.pytorch.org/docs/stable/index.html",
@@ -626,7 +626,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Arrays et jax.numpy",
+      "domain": "Arrays and jax.numpy",
       "planned_unit_id": "JX-01",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -635,7 +635,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Pytrees et état",
+      "domain": "Pytrees and state",
       "planned_unit_id": "JX-02",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -644,7 +644,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Aléatoire explicite",
+      "domain": "Explicit randomness",
       "planned_unit_id": "JX-03",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -653,7 +653,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Différentiation",
+      "domain": "Differentiation",
       "planned_unit_id": "JX-04",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -662,7 +662,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Compilation et tracing",
+      "domain": "Compilation and tracing",
       "planned_unit_id": "JX-05",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -671,7 +671,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Vectorisation",
+      "domain": "Vectorization",
       "planned_unit_id": "JX-06",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -680,7 +680,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Contrôle de flux et lax",
+      "domain": "Control flow and lax",
       "planned_unit_id": "JX-07",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -689,7 +689,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Règles de dérivation personnalisées",
+      "domain": "Custom differentiation rules",
       "planned_unit_id": "JX-08",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -698,7 +698,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Réseaux, images et fonctions scientifiques",
+      "domain": "Networks, images, and scientific functions",
       "planned_unit_id": "JX-09",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -707,7 +707,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Placement et sharding",
+      "domain": "Placement and sharding",
       "planned_unit_id": "JX-10",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -716,7 +716,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Mémoire et précision",
+      "domain": "Memory and precision",
       "planned_unit_id": "JX-11",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -725,7 +725,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Débogage et profilage",
+      "domain": "Debugging and profiling",
       "planned_unit_id": "JX-12",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -734,7 +734,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Export, stages et interopérabilité",
+      "domain": "Export, stages, and interoperability",
       "planned_unit_id": "JX-13",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -743,7 +743,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "API expérimentales et kernels",
+      "domain": "Experimental APIs and kernels",
       "planned_unit_id": "JX-14",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -752,7 +752,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Extensions et représentation interne",
+      "domain": "Extensions and internal representation",
       "planned_unit_id": "JX-15",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",
@@ -761,7 +761,7 @@
     {
       "library": "jax",
       "target_version": null,
-      "domain": "Audit des modules",
+      "domain": "Module audit",
       "planned_unit_id": "JX-16",
       "status": "planned",
       "source_index": "https://docs.jax.dev/en/latest/jax.html",

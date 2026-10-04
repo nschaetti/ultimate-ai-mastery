@@ -1,32 +1,32 @@
-# Bibliographie initiale commentée
+# Initial annotated reading list
 
-Points d'entrée consultés le **4 octobre 2026**. Cette liste amorce le cursus ; elle n'est ni exhaustive ni une certification de lecture intégrale des articles. Les futures leçons ajouteront les références précises près des affirmations, les sections à lire et les versions utilisées. Les index `stable`/`latest` évoluent : ils devront être remplacés ou accompagnés de références figées dans les inventaires.
+Entry points accessed on **October 4, 2026**. This list starts the curriculum; it is neither exhaustive nor a certification that the papers have been read in full. Future lessons will add precise references near claims, sections to read, and the versions used. The `stable`/`latest` indexes change over time: they must be replaced or accompanied by fixed references in the inventories.
 
-## Bibliothèques — documentation officielle
+## Libraries — official documentation
 
-| Source | Usage prévu | Lecture guidée |
+| Source | Intended use | Reading guidance |
 |---|---|---|
-| [NumPy reference](https://numpy.org/doc/stable/reference/index.html) | NP et inventaire de l'API | Commencer par ndarray, dtypes et ufuncs ; parcourir ensuite les routines thématiques et sous-packages. |
-| [PyTorch documentation](https://docs.pytorch.org/docs/stable/index.html) | PT et implémentations des modèles | Associer API des tenseurs, autograd et modules aux exercices ; inventorier séparément les composants spécialisés. |
-| [JAX API reference](https://docs.jax.dev/en/latest/jax.html) | JX et transformations fonctionnelles | Partir des arrays, transformations et pytrees ; approfondir lax, sharding, export et extensions selon le chapitre. |
-| [Matplotlib API](https://matplotlib.org/stable/api/index.html) | MPL et diagnostics | Lire les interfaces objet puis les artistes et modules spécialisés ; relier chaque figure à son modèle d'objets. |
-| [pandas API reference](https://pandas.pydata.org/docs/reference/index.html) | PD et préparation des données | Structurer l'inventaire autour de Series, DataFrame, Index, accessors, fenêtres, IO et extensions. |
+| [NumPy reference](https://numpy.org/doc/stable/reference/index.html) | NP and API inventory | Start with ndarray, dtypes, and ufuncs; then work through topic-based routines and subpackages. |
+| [PyTorch documentation](https://docs.pytorch.org/docs/stable/index.html) | PT and model implementations | Connect tensor, autograd, and module APIs to exercises; inventory specialized components separately. |
+| [JAX API reference](https://docs.jax.dev/en/latest/jax.html) | JX and functional transformations | Start with arrays, transformations, and pytrees; deepen coverage of lax, sharding, export, and extensions in the relevant chapters. |
+| [Matplotlib API](https://matplotlib.org/stable/api/index.html) | MPL and diagnostics | Read the object-oriented interfaces, then artists and specialized modules; connect each figure to its object model. |
+| [pandas API reference](https://pandas.pydata.org/docs/reference/index.html) | PD and data preparation | Structure the inventory around Series, DataFrame, Index, accessors, windows, IO, and extensions. |
 
-## Articles de départ — sources primaires
+## Starting papers — primary sources
 
-| Référence | Bloc | Question de lecture |
+| Reference | Block | Reading question |
 |---|---|---|
-| Vaswani et al., 2017 — [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | ATT | Comment s'articulent attention, positions, réseau feed-forward et résidus ? Refaire les dimensions du bloc. |
-| Ouyang et al., 2022 — [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) | FB | Quelles données et quels objectifs distinguent SFT, reward model et optimisation de la politique ? |
-| Rafailov et al., 2023 — [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) | FB | Quelles hypothèses permettent la reformulation de l'objectif de préférences ? |
-| DeepSeek-AI et al., 2025 — [DeepSeek-R1](https://arxiv.org/abs/2501.12948) | RSN | Distinguer les recettes rapportées, les évaluations des auteurs et ce que notre petite expérience pourra tester. |
-| Ho et al., 2020 — [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) | DIFF | Relier processus direct, processus inverse et cible de débruitage. |
-| Lipman et al., 2022 — [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747) | FLOW | Pourquoi peut-on apprendre un champ de vitesse à partir de chemins conditionnels ? |
-| Hafner et al., 2023 — [Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104) | WM | Séparer apprentissage de la dynamique, imagination et apprentissage du comportement. |
-| Assran et al., 2023 — [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) | JEPA | Identifier les cibles prédites, le masquage et les mécanismes d'apprentissage des représentations. |
+| Vaswani et al., 2017 — [Attention Is All You Need](https://arxiv.org/abs/1706.03762) | ATT | How do attention, positions, feed-forward networks, and residual connections fit together? Reconstruct the block's dimensions. |
+| Ouyang et al., 2022 — [Training language models to follow instructions with human feedback](https://arxiv.org/abs/2203.02155) | FB | Which data and objectives distinguish SFT, reward modeling, and policy optimization? |
+| Rafailov et al., 2023 — [Direct Preference Optimization](https://arxiv.org/abs/2305.18290) | FB | Which assumptions allow the preference objective to be reformulated? |
+| DeepSeek-AI et al., 2025 — [DeepSeek-R1](https://arxiv.org/abs/2501.12948) | RSN | Distinguish reported recipes, the authors' evaluations, and what our small experiment can test. |
+| Ho et al., 2020 — [Denoising Diffusion Probabilistic Models](https://arxiv.org/abs/2006.11239) | DIFF | Connect the forward process, reverse process, and denoising target. |
+| Lipman et al., 2022 — [Flow Matching for Generative Modeling](https://arxiv.org/abs/2210.02747) | FLOW | Why can a velocity field be learned from conditional paths? |
+| Hafner et al., 2023 — [Mastering Diverse Domains through World Models](https://arxiv.org/abs/2301.04104) | WM | Separate dynamics learning, imagination, and behavior learning. |
+| Assran et al., 2023 — [Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture](https://arxiv.org/abs/2301.08243) | JEPA | Identify the predicted targets, masking, and representation learning mechanisms. |
 
-Les années ci-dessus désignent la première version arXiv, pas nécessairement l'année de publication dans une conférence ou revue. Avant une reproduction, choisir une révision précise et vérifier le code des auteurs. Les sections détaillées ne sont pas indiquées tant que le texte intégral correspondant n'a pas été étudié.
+The years above refer to the first arXiv version, not necessarily the year of conference or journal publication. Before reproducing a method, choose a specific revision and check the authors' code. Detailed section references are not provided until the corresponding full text has been studied.
 
-## Lectures à compléter
+## Readings to add
 
-Les bibliographies propres à l'autograd, au contraste, à la distillation, aux variantes d'attention, au RL, aux VAE, au score matching, aux rectified flows, aux world models vidéo et aux variantes vidéo/action de JEPA seront établies lors de la rédaction des chapitres. Ne pas interpréter leur absence ici comme une exclusion du programme.
+Chapter-specific bibliographies for autograd, contrastive learning, distillation, attention variants, RL, VAEs, score matching, rectified flows, video world models, and video/action JEPA variants will be established as those chapters are written. Their absence here does not exclude them from the curriculum.
