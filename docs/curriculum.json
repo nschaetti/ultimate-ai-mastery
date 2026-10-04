@@ -1,0 +1,2035 @@
+{
+  "schema_version": 1,
+  "units": [
+    {
+      "id": "FND-01",
+      "block": "FND",
+      "title": "Environnement et notebooks",
+      "objective": "Repartir d'un kernel neuf, identifier les dépendances et reconnaître un état caché.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FND-02",
+      "block": "FND",
+      "title": "Python scientifique",
+      "objective": "Maîtriser itérateurs, générateurs, context managers, fonctions, classes et protocoles utiles aux bibliothèques.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FND-03",
+      "block": "FND",
+      "title": "Tests numériques",
+      "objective": "Comparer exactitude, tolérances, invariants et tests fondés sur des propriétés.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FND-04",
+      "block": "FND",
+      "title": "Reproductibilité",
+      "objective": "Distinguer graine, déterminisme et variabilité statistique.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FND-05",
+      "block": "FND",
+      "title": "Mesure et débogage",
+      "objective": "Mesurer temps et mémoire sans confondre compilation, transfert et calcul.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FND-06",
+      "block": "FND",
+      "title": "Lire un article",
+      "objective": "Extraire hypothèses, objectif, protocole et écarts entre article et code.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-01",
+      "block": "NP",
+      "title": "Le modèle ndarray",
+      "objective": "Expliquer shape, ndim, size, axes, dtype et représentation en mémoire.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-02",
+      "block": "NP",
+      "title": "Création et conversions",
+      "objective": "Choisir les constructeurs, conversions et routines de création selon les garanties requises.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-03",
+      "block": "NP",
+      "title": "Types et promotion",
+      "objective": "Prédire promotion, casting, overflow et précision des calculs.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-04",
+      "block": "NP",
+      "title": "Indexation et sélection",
+      "objective": "Comparer slicing, indexation avancée, masques, take et mises à jour.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-05",
+      "block": "NP",
+      "title": "Vues, copies et strides",
+      "objective": "Prédire le partage mémoire, la contiguïté et le coût d'une transformation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-06",
+      "block": "NP",
+      "title": "Broadcasting et formes",
+      "objective": "Dériver les formes compatibles et détecter un résultat plausible mais incorrect.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-07",
+      "block": "NP",
+      "title": "Ufuncs et réductions",
+      "objective": "Utiliser out, where, axes, reduce, accumulate et la gestion des erreurs flottantes.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-08",
+      "block": "NP",
+      "title": "Assemblage et organisation",
+      "objective": "Comparer reshape, transpose, stacking, splitting, répétition et padding.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-09",
+      "block": "NP",
+      "title": "Mathématiques, logique et ensembles",
+      "objective": "Choisir les opérations élémentaires, complexes, bitwise, logiques et ensemblistes.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-10",
+      "block": "NP",
+      "title": "Tri, recherche et statistiques",
+      "objective": "Analyser axes, stabilité, quantiles, histogrammes, NaN et conventions statistiques.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-11",
+      "block": "NP",
+      "title": "Algèbre linéaire et contractions",
+      "objective": "Relier solve, décompositions, normes, matmul, tensordot et einsum aux équations.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-12",
+      "block": "NP",
+      "title": "Génération aléatoire",
+      "objective": "Utiliser Generator, BitGenerator, distributions et flux indépendants reproductibles.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-13",
+      "block": "NP",
+      "title": "Fourier et fenêtres",
+      "objective": "Relier spectres, fréquences, normalisation, symétries et fenêtrage.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-14",
+      "block": "NP",
+      "title": "Polynômes et ajustement",
+      "objective": "Comparer bases polynomiales, évaluation, dérivation, ajustement et conditionnement.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-15",
+      "block": "NP",
+      "title": "Chaînes, dates et tableaux structurés",
+      "objective": "Manipuler données non purement flottantes et comprendre leurs limites.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-16",
+      "block": "NP",
+      "title": "Tableaux masqués et domaines étendus",
+      "objective": "Comparer masques, valeurs manquantes et fonctions à domaine complexe.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-17",
+      "block": "NP",
+      "title": "Entrées-sorties et memmap",
+      "objective": "Choisir les formats, charger partiellement et expliquer persistance et représentation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-18",
+      "block": "NP",
+      "title": "Typing, testing et configuration",
+      "objective": "Exploiter annotations, assertions numériques, options et diagnostics.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-19",
+      "block": "NP",
+      "title": "Interopérabilité et extensions",
+      "objective": "Étudier protocoles array, DLPack, F2PY, panorama C-API et compatibilité Array API.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NP-20",
+      "block": "NP",
+      "title": "Audit des API spécialisées",
+      "objective": "Réconcilier toutes les rubriques et symboles publics de la version avec leurs leçons.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-01",
+      "block": "PD",
+      "title": "Series, DataFrame et Index",
+      "objective": "Expliquer axes nommés, alignement et différence avec un ndarray.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-02",
+      "block": "PD",
+      "title": "Construction, types et conversion",
+      "objective": "Choisir types nullable, catégoriels et types d'extension.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-03",
+      "block": "PD",
+      "title": "Indexation et mutation",
+      "objective": "Maîtriser loc, iloc, filtres, alignement et sémantique de copie de la version.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-04",
+      "block": "PD",
+      "title": "Valeurs manquantes",
+      "objective": "Comparer sentinelles, propagation, détection et stratégies d'imputation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-05",
+      "block": "PD",
+      "title": "Calcul et statistiques",
+      "objective": "Distinguer opérations vectorisées, apply, agrégation et alignement implicite.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-06",
+      "block": "PD",
+      "title": "GroupBy",
+      "objective": "Construire split-apply-combine, transform, filter et agrégations multiples.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-07",
+      "block": "PD",
+      "title": "Jointures et concaténation",
+      "objective": "Détecter cardinalité inattendue, clés manquantes et duplication de lignes.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-08",
+      "block": "PD",
+      "title": "Reshape et MultiIndex",
+      "objective": "Passer entre formats longs/larges avec pivot, melt, stack et unstack.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-09",
+      "block": "PD",
+      "title": "Texte et catégories",
+      "objective": "Utiliser accessors str et cat, expressions régulières et catégories ordonnées.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-10",
+      "block": "PD",
+      "title": "Temps et fuseaux horaires",
+      "objective": "Distinguer Timestamp, Timedelta, Period, resampling et localisation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-11",
+      "block": "PD",
+      "title": "Fenêtres",
+      "objective": "Comparer rolling, expanding et pondération exponentielle.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-12",
+      "block": "PD",
+      "title": "Entrées-sorties",
+      "objective": "Passer en revue les interfaces de lecture/écriture et leurs dépendances optionnelles.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-13",
+      "block": "PD",
+      "title": "Visualisation et Styler",
+      "objective": "Séparer analyse graphique, formatage et export de tableaux.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-14",
+      "block": "PD",
+      "title": "Performance et mémoire",
+      "objective": "Mesurer coût des types, de l'index et des opérations sur gros tableaux.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-15",
+      "block": "PD",
+      "title": "Extensions, options et testing",
+      "objective": "Comprendre ExtensionArray, options, objets sparse et assertions pandas.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PD-16",
+      "block": "PD",
+      "title": "Audit des API et migrations",
+      "objective": "Inventorier méthodes, accessors, attributs et changements de version.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-01",
+      "block": "MPL",
+      "title": "Figure, Axes, Axis et Artist",
+      "objective": "Construire un tracé avec l'API objet et expliquer le rôle de pyplot.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-02",
+      "block": "MPL",
+      "title": "Courbes, marqueurs et erreurs",
+      "objective": "Choisir Line2D, styles, barres d'erreur et représentations d'incertitude.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-03",
+      "block": "MPL",
+      "title": "Graphiques statistiques",
+      "objective": "Comparer histogrammes, barres, scatter, boxplots et violons.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-04",
+      "block": "MPL",
+      "title": "Images, grilles et contours",
+      "objective": "Choisir imshow, pcolormesh, contour et interpolation selon les données.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-05",
+      "block": "MPL",
+      "title": "Couleurs et normalisation",
+      "objective": "Relier colormaps, normes, colorbars et perception des valeurs.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-06",
+      "block": "MPL",
+      "title": "Axes, échelles et ticks",
+      "objective": "Contrôler limites, échelles, locators, formatters, unités et dates.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-07",
+      "block": "MPL",
+      "title": "Texte et annotations",
+      "objective": "Configurer polices, mathtext, légendes, annotations et export typographique.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-08",
+      "block": "MPL",
+      "title": "Disposition des figures",
+      "objective": "Maîtriser subplots, mosaïques, GridSpec et moteurs de layout.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-09",
+      "block": "MPL",
+      "title": "Transformations et géométrie",
+      "objective": "Passer entre coordonnées données, axes et figure ; utiliser paths et patches.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-10",
+      "block": "MPL",
+      "title": "Collections et tracés spécialisés",
+      "objective": "Expliquer collections, graphes triangulés, vecteurs et projections.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-11",
+      "block": "MPL",
+      "title": "Styles et configuration",
+      "objective": "Construire un style reproductible avec rcParams et contextes locaux.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-12",
+      "block": "MPL",
+      "title": "Animation et événements",
+      "objective": "Mettre à jour les artistes, gérer événements, widgets et export d'animations.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-13",
+      "block": "MPL",
+      "title": "Backends et export",
+      "objective": "Distinguer interactif, raster et vectoriel ; choisir DPI et formats.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-14",
+      "block": "MPL",
+      "title": "Toolkits",
+      "objective": "Explorer mplot3d, axes_grid1 et axisartist avec leurs limites.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MPL-15",
+      "block": "MPL",
+      "title": "API de bas niveau et audit",
+      "objective": "Cartographier modules spécialisés, transformations, rendu et API publiques restantes.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MATH-01",
+      "block": "MATH",
+      "title": "Vecteurs, matrices et espaces",
+      "objective": "Relier bases, projections, rang et changements de coordonnées.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MATH-02",
+      "block": "MATH",
+      "title": "Décompositions et conditionnement",
+      "objective": "Interpréter valeurs propres, SVD et stabilité d'une résolution.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MATH-03",
+      "block": "MATH",
+      "title": "Calcul différentiel",
+      "objective": "Dériver gradients, Jacobiennes, Hessiennes et règle de chaîne avec dimensions.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MATH-04",
+      "block": "MATH",
+      "title": "Probabilités",
+      "objective": "Manipuler conditionnement, indépendance, Bayes et marginalisation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MATH-05",
+      "block": "MATH",
+      "title": "Estimation et Monte Carlo",
+      "objective": "Comparer biais, variance, intervalles et approximation d'espérances.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MATH-06",
+      "block": "MATH",
+      "title": "Information et vraisemblance",
+      "objective": "Dériver log-vraisemblance, entropie, cross-entropy et KL.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MATH-07",
+      "block": "MATH",
+      "title": "Optimisation",
+      "objective": "Comparer SGD, momentum, méthodes adaptatives et contraintes.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MATH-08",
+      "block": "MATH",
+      "title": "Calcul variationnel élémentaire",
+      "objective": "Dériver un ELBO et distinguer approximation et objectif exact.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "MATH-09",
+      "block": "MATH",
+      "title": "ODE, SDE et transport",
+      "objective": "Relier champs de vecteurs, intégration numérique et évolution de densités.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-01",
+      "block": "PT",
+      "title": "Tenseurs et dispositifs",
+      "objective": "Maîtriser création, types, devices, conversions et partage mémoire.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-02",
+      "block": "PT",
+      "title": "Indexation et opérations",
+      "objective": "Passer en revue opérations Tensor, broadcasting, réductions et mutation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-03",
+      "block": "PT",
+      "title": "Autograd",
+      "objective": "Expliquer graphe, leaf tensors, accumulation, detach et contextes de gradient.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-04",
+      "block": "PT",
+      "title": "Dérivées avancées",
+      "objective": "Construire JVP, VJP, Hessiennes et opérations différentiables personnalisées.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-05",
+      "block": "PT",
+      "title": "Modules et paramètres",
+      "objective": "Comprendre nn.Module, buffers, paramètres, hooks et state_dict.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-06",
+      "block": "PT",
+      "title": "Couches et fonctionnelles",
+      "objective": "Cartographier nn et nn.functional, initialisations, activations et losses.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-07",
+      "block": "PT",
+      "title": "Optimiseurs et schedules",
+      "objective": "Examiner états, groupes de paramètres, zero_grad et scheduling.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-08",
+      "block": "PT",
+      "title": "Données et parallélisme de chargement",
+      "objective": "Maîtriser Dataset, IterableDataset, DataLoader, collate et workers.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-09",
+      "block": "PT",
+      "title": "Aléatoire et distributions",
+      "objective": "Comparer échantillonnage, reparamétrisation, RNG et déterminisme.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-10",
+      "block": "PT",
+      "title": "Algèbre, FFT et formats spécialisés",
+      "objective": "Explorer linalg, fft, sparse, tenseurs quantifiés et nested selon la version.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-11",
+      "block": "PT",
+      "title": "Précision et mémoire",
+      "objective": "Mesurer AMP, checkpointing, transferts et consommation des tenseurs.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-12",
+      "block": "PT",
+      "title": "Programmation fonctionnelle",
+      "objective": "Utiliser torch.func pour gradients par exemple et transformations vectorisées.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-13",
+      "block": "PT",
+      "title": "Compilation et export",
+      "objective": "Étudier compile, export, ruptures de graphe, formes dynamiques et outils historiques.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-14",
+      "block": "PT",
+      "title": "Profilage et benchmark",
+      "objective": "Localiser un goulot sans confondre exécution asynchrone et temps mesuré.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-15",
+      "block": "PT",
+      "title": "Calcul distribué",
+      "objective": "Comprendre collectives, DDP, sharding et sauvegarde distribuée.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-16",
+      "block": "PT",
+      "title": "Sérialisation et déploiement",
+      "objective": "Gérer checkpoints, chargement, interopérabilité et formats d'export.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-17",
+      "block": "PT",
+      "title": "Backends et extensions",
+      "objective": "Explorer accélérateurs, bibliothèques d'opérateurs et extensions C++/CUDA.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PT-18",
+      "block": "PT",
+      "title": "Testing et audit des modules",
+      "objective": "Réconcilier testing, utils et toutes les API publiques restantes avec l'inventaire.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-01",
+      "block": "JX",
+      "title": "Arrays et jax.numpy",
+      "objective": "Comparer sémantique, types, devices, immutabilité et mises à jour fonctionnelles.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-02",
+      "block": "JX",
+      "title": "Pytrees et état",
+      "objective": "Représenter paramètres et état sans mutations cachées.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-03",
+      "block": "JX",
+      "title": "Aléatoire explicite",
+      "objective": "Gérer clés, split, distributions et indépendance des tirages.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-04",
+      "block": "JX",
+      "title": "Différentiation",
+      "objective": "Comparer grad, value_and_grad, jacfwd, jacrev, jvp et vjp.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-05",
+      "block": "JX",
+      "title": "Compilation et tracing",
+      "objective": "Expliquer jit, valeurs statiques, spécialisation et recompilation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-06",
+      "block": "JX",
+      "title": "Vectorisation",
+      "objective": "Dériver in_axes/out_axes et composer vmap avec jit et grad.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-07",
+      "block": "JX",
+      "title": "Contrôle de flux et lax",
+      "objective": "Utiliser cond, scan, boucles et primitives adaptées au tracing.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-08",
+      "block": "JX",
+      "title": "Règles de dérivation personnalisées",
+      "objective": "Écrire custom_jvp/custom_vjp et vérifier leurs hypothèses.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-09",
+      "block": "JX",
+      "title": "Réseaux, images et fonctions scientifiques",
+      "objective": "Explorer jax.nn, initializers, jax.image et jax.scipy.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-10",
+      "block": "JX",
+      "title": "Placement et sharding",
+      "objective": "Comprendre maillages, partitionnement et calcul multi-dispositifs.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-11",
+      "block": "JX",
+      "title": "Mémoire et précision",
+      "objective": "Étudier donation, remat, offloading, X64 et tolérances.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-12",
+      "block": "JX",
+      "title": "Débogage et profilage",
+      "objective": "Inspecter valeurs d'exécution, erreurs transformées et synchronisation des benchmarks.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-13",
+      "block": "JX",
+      "title": "Export, stages et interopérabilité",
+      "objective": "Étudier compilation anticipée, export, DLPack, callbacks et FFI.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-14",
+      "block": "JX",
+      "title": "API expérimentales et kernels",
+      "objective": "Cartographier experimental, sparse et Pallas selon la version.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-15",
+      "block": "JX",
+      "title": "Extensions et représentation interne",
+      "objective": "Lire un jaxpr et situer jax.extend sans confondre API publique et interne.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JX-16",
+      "block": "JX",
+      "title": "Audit des modules",
+      "objective": "Réconcilier l'ensemble des symboles documentés et leurs changements de version.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NN-01",
+      "block": "NN",
+      "title": "Régression linéaire et logistique",
+      "objective": "Dériver objectifs et gradients puis comparer à une solution analytique.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NN-02",
+      "block": "NN",
+      "title": "Autograd miniature",
+      "objective": "Implémenter un moteur scalaire puis relier ses limites aux tenseurs.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NN-03",
+      "block": "NN",
+      "title": "MLP et backpropagation",
+      "objective": "Reconstruire la propagation avant et arrière avec dimensions explicites.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NN-04",
+      "block": "NN",
+      "title": "Initialisation et activations",
+      "objective": "Mesurer propagation de variance et saturation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NN-05",
+      "block": "NN",
+      "title": "Normalisation et régularisation",
+      "objective": "Comparer batch/layer normalization, dropout et pénalités.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NN-06",
+      "block": "NN",
+      "title": "Optimisation et diagnostic",
+      "objective": "Surapprendre un minibatch puis diagnostiquer gradients et courbes.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NN-07",
+      "block": "NN",
+      "title": "Convolutions",
+      "objective": "Dériver padding, stride, réceptivité et partage des poids.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NN-08",
+      "block": "NN",
+      "title": "Récurrence et mémoire",
+      "objective": "Comparer RNN, LSTM et GRU sur une tâche de dépendance temporelle.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "NN-09",
+      "block": "NN",
+      "title": "Généralisation et calibration",
+      "objective": "Évaluer hors échantillon, séparation des données et confiance.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "REP-01",
+      "block": "REP",
+      "title": "Autoencodeurs",
+      "objective": "Distinguer reconstruction, compression et utilité des représentations.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "REP-02",
+      "block": "REP",
+      "title": "Contraste",
+      "objective": "Implémenter une perte contrastive et étudier température et négatifs.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "REP-03",
+      "block": "REP",
+      "title": "Distillation et enseignants",
+      "objective": "Comparer stop-gradient, cibles mobiles et apprentissage enseignant-élève.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "REP-04",
+      "block": "REP",
+      "title": "Effondrement",
+      "objective": "Construire une solution dégénérée et tester des contraintes anti-effondrement.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "REP-05",
+      "block": "REP",
+      "title": "Prédiction masquée",
+      "objective": "Comparer prédiction dans l'espace des entrées et des représentations.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "REP-06",
+      "block": "REP",
+      "title": "Évaluation des représentations",
+      "objective": "Distinguer linear probe, fine-tuning, transfert et fuite d'information.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "ATT-01",
+      "block": "ATT",
+      "title": "Attention additive",
+      "objective": "Construire requêtes, clés, valeurs et scores d'alignement.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "ATT-02",
+      "block": "ATT",
+      "title": "Scaled dot-product",
+      "objective": "Dériver scaling, softmax, masques et gradients.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "ATT-03",
+      "block": "ATT",
+      "title": "Multi-head et cross-attention",
+      "objective": "Tracer toutes les dimensions et tester le mélange des têtes.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "ATT-04",
+      "block": "ATT",
+      "title": "Positions",
+      "objective": "Comparer positions absolues, relatives, RoPE et biais positionnels.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "ATT-05",
+      "block": "ATT",
+      "title": "Bloc Transformer",
+      "objective": "Comparer résidus, pre/post-norm et réseaux feed-forward.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "ATT-06",
+      "block": "ATT",
+      "title": "MQA et GQA",
+      "objective": "Quantifier partage des clés/valeurs et taille du cache.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "ATT-07",
+      "block": "ATT",
+      "title": "Attention locale et sparse",
+      "objective": "Construire motifs de connexion et analyser leur effet sur l'information.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "ATT-08",
+      "block": "ATT",
+      "title": "Attention linéaire",
+      "objective": "Comprendre factorisations, approximations et différences avec le softmax dense.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "ATT-09",
+      "block": "ATT",
+      "title": "Attention efficace exacte",
+      "objective": "Expliquer tiling, softmax en ligne et principes de FlashAttention.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "ATT-10",
+      "block": "ATT",
+      "title": "Alternatives séquentielles",
+      "objective": "Comparer récurrence, modèles d'état et architectures hybrides à budget contrôlé.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "LM-01",
+      "block": "LM",
+      "title": "Tokenisation",
+      "objective": "Implémenter un tokenizer simple et analyser segmentation et vocabulaire.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "LM-02",
+      "block": "LM",
+      "title": "Corpus et préparation",
+      "objective": "Documenter provenance, déduplication, découpage et contamination.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "LM-03",
+      "block": "LM",
+      "title": "GPT minimal",
+      "objective": "Assembler un modèle decoder-only causal et vérifier l'absence de fuite future.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "LM-04",
+      "block": "LM",
+      "title": "Préentraînement",
+      "objective": "Relier next-token prediction, batching, loss et budget de calcul.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "LM-05",
+      "block": "LM",
+      "title": "Échantillonnage",
+      "objective": "Comparer température, top-k et top-p sur distributions contrôlées.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "LM-06",
+      "block": "LM",
+      "title": "Cache et inférence",
+      "objective": "Vérifier égalité des logits avec/sans KV cache et mesurer le compromis mémoire.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "LM-07",
+      "block": "LM",
+      "title": "Architectures et efficacité",
+      "objective": "Étudier normalisations, activations, MoE et adaptations paramétriquement efficaces.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "LM-08",
+      "block": "LM",
+      "title": "Évaluation",
+      "objective": "Comparer perplexité, tâches aval, robustesse et limites des benchmarks.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "LM-09",
+      "block": "LM",
+      "title": "Multimodalité",
+      "objective": "Relier encodeurs, projections et séquences mixtes sur un exemple réduit.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RL-01",
+      "block": "RL",
+      "title": "MDP et observabilité partielle",
+      "objective": "Distinguer état, observation, action, récompense et croyance.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RL-02",
+      "block": "RL",
+      "title": "Valeurs et Bellman",
+      "objective": "Résoudre un petit problème tabulaire et vérifier les équations.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RL-03",
+      "block": "RL",
+      "title": "Policy gradient",
+      "objective": "Dériver REINFORCE, baseline et variance.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RL-04",
+      "block": "RL",
+      "title": "Actor-critic et PPO",
+      "objective": "Comprendre avantages, clipping, contraintes et données on-policy.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RL-05",
+      "block": "RL",
+      "title": "Hors politique et évaluation",
+      "objective": "Analyser décalage de distribution et limites des estimations.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RL-06",
+      "block": "RL",
+      "title": "Planification",
+      "objective": "Comparer recherche, MPC et politique apprise sur un même environnement.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FB-01",
+      "block": "FB",
+      "title": "Instruction tuning",
+      "objective": "Construire exemples supervisés, masques de loss et protocole d'évaluation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FB-02",
+      "block": "FB",
+      "title": "Préférences",
+      "objective": "Modéliser comparaisons, désaccords et biais des annotateurs.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FB-03",
+      "block": "FB",
+      "title": "Reward models",
+      "objective": "Entraîner un score de préférence et analyser calibration et extrapolation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FB-04",
+      "block": "FB",
+      "title": "RLHF",
+      "objective": "Relier politique, modèle de référence, récompense et pénalisation KL.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FB-05",
+      "block": "FB",
+      "title": "DPO",
+      "objective": "Dériver l'objectif et expliciter hypothèses et données nécessaires.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FB-06",
+      "block": "FB",
+      "title": "Feedback automatique",
+      "objective": "Comparer règles vérifiables, juges modèles et supervision humaine.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FB-07",
+      "block": "FB",
+      "title": "Reward hacking",
+      "objective": "Construire un exemple d'optimisation d'un proxy qui dégrade l'objectif réel.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FB-08",
+      "block": "FB",
+      "title": "Évaluation du post-entraînement",
+      "objective": "Séparer qualité, style, longueur, préférences et robustesse.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RSN-01",
+      "block": "RSN",
+      "title": "Tâches et protocoles",
+      "objective": "Construire tâches vérifiables et splits empêchant la mémorisation triviale.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RSN-02",
+      "block": "RSN",
+      "title": "Traces de raisonnement",
+      "objective": "Comparer réponse directe et étapes explicites sans assimiler texte et mécanisme interne.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RSN-03",
+      "block": "RSN",
+      "title": "Vérification",
+      "objective": "Comparer supervision du résultat et des étapes, erreurs et coût d'annotation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RSN-04",
+      "block": "RSN",
+      "title": "Calcul à l'inférence",
+      "objective": "Comparer best-of-N, vote et recherche à budget de tokens égal.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RSN-05",
+      "block": "RSN",
+      "title": "Renforcement à récompense vérifiable",
+      "objective": "Implémenter une expérience limitée et analyser avantages et normalisations de type GRPO.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RSN-06",
+      "block": "RSN",
+      "title": "Distillation",
+      "objective": "Transférer des solutions tout en contrôlant qualité et contamination.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RSN-07",
+      "block": "RSN",
+      "title": "Généralisation",
+      "objective": "Mesurer longueur, difficulté, robustesse et transfert hors distribution.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "RSN-08",
+      "block": "RSN",
+      "title": "Reproduction critique",
+      "objective": "Distinguer recette publiée, résultat reproduit et informations indisponibles.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "GEN-01",
+      "block": "GEN",
+      "title": "Densités et échantillonnage",
+      "objective": "Distinguer estimation de densité, génération et qualité perceptuelle.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "GEN-02",
+      "block": "GEN",
+      "title": "VAE",
+      "objective": "Dériver ELBO, reparamétrisation et rôle du prior.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "GEN-03",
+      "block": "GEN",
+      "title": "Normalizing flows",
+      "objective": "Implémenter changement de variables, couplages et log-déterminants.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "GEN-04",
+      "block": "GEN",
+      "title": "GAN et objectifs adversariaux",
+      "objective": "Comprendre le jeu d'optimisation et diagnostiquer l'effondrement de modes.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "GEN-05",
+      "block": "GEN",
+      "title": "Score matching",
+      "objective": "Relier gradients de log-densité et objectifs de débruitage.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "GEN-06",
+      "block": "GEN",
+      "title": "Évaluation générative",
+      "objective": "Comparer couverture, fidélité, métriques et biais d'évaluation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "DIFF-01",
+      "block": "DIFF",
+      "title": "Processus direct",
+      "objective": "Dériver bruitage, marginales et schedules.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "DIFF-02",
+      "block": "DIFF",
+      "title": "Processus inverse",
+      "objective": "Relier débruitage, objectif d'entraînement et paramètres prédits.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "DIFF-03",
+      "block": "DIFF",
+      "title": "DDPM miniature",
+      "objective": "Apprendre une distribution 2D et visualiser les étapes inverses.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "DIFF-04",
+      "block": "DIFF",
+      "title": "DDIM et solveurs",
+      "objective": "Comparer nombre d'étapes, stochasticité et erreur numérique.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "DIFF-05",
+      "block": "DIFF",
+      "title": "Score et SDE",
+      "objective": "Relier formulations discrètes, score et dynamique continue.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "DIFF-06",
+      "block": "DIFF",
+      "title": "Conditionnement et guidance",
+      "objective": "Comparer guidage par classifieur et classifier-free guidance.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "DIFF-07",
+      "block": "DIFF",
+      "title": "Diffusion latente",
+      "objective": "Analyser le rôle de l'autoencodeur et la perte d'information.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "DIFF-08",
+      "block": "DIFF",
+      "title": "U-Net et DiT",
+      "objective": "Comparer architectures de débruitage à protocole contrôlé.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FLOW-01",
+      "block": "FLOW",
+      "title": "Transport continu",
+      "objective": "Dériver la relation entre trajectoires, vitesse et densités.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FLOW-02",
+      "block": "FLOW",
+      "title": "Chemins conditionnels",
+      "objective": "Construire interpolation, bruit et cibles de vitesse.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FLOW-03",
+      "block": "FLOW",
+      "title": "Conditional flow matching",
+      "objective": "Dériver puis implémenter l'objectif sur une distribution 2D.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FLOW-04",
+      "block": "FLOW",
+      "title": "Couplages",
+      "objective": "Comparer couplage indépendant et couplages orientés transport.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FLOW-05",
+      "block": "FLOW",
+      "title": "Rectified flows",
+      "objective": "Étudier rectification, trajectoires et coût numérique.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FLOW-06",
+      "block": "FLOW",
+      "title": "Intégration et génération",
+      "objective": "Mesurer qualité et coût selon solveur et nombre d'évaluations.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FLOW-07",
+      "block": "FLOW",
+      "title": "Comparaison avec diffusion",
+      "objective": "Expliciter paramétrisations communes et différences d'objectifs.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "FLOW-08",
+      "block": "FLOW",
+      "title": "Conditionnement et distillation",
+      "objective": "Tester guidage et réduction du coût de génération.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "WM-01",
+      "block": "WM",
+      "title": "Définir le monde modélisé",
+      "objective": "Distinguer prédiction d'observations, dynamique d'état et modèle pour le contrôle.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "WM-02",
+      "block": "WM",
+      "title": "Dynamique déterministe",
+      "objective": "Apprendre transitions et analyser les erreurs multi-pas.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "WM-03",
+      "block": "WM",
+      "title": "Dynamique probabiliste",
+      "objective": "Représenter ambiguïté, variables latentes et incertitude.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "WM-04",
+      "block": "WM",
+      "title": "Modèles récurrents latents",
+      "objective": "Reconstruire un RSSM miniature et ses objectifs.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "WM-05",
+      "block": "WM",
+      "title": "Imagination et contrôle",
+      "objective": "Comparer planification dans le modèle et politique entraînée dans l'imagination.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "WM-06",
+      "block": "WM",
+      "title": "World models à tokens",
+      "objective": "Étudier quantification, séquences et accumulation des erreurs.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "WM-07",
+      "block": "WM",
+      "title": "Modèles vidéo génératifs",
+      "objective": "Comparer autorégression, diffusion et flow matching pour la prédiction temporelle.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "WM-08",
+      "block": "WM",
+      "title": "Actions et contrôlabilité",
+      "objective": "Tester l'effet d'actions et interventions plutôt que la seule qualité visuelle.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "WM-09",
+      "block": "WM",
+      "title": "Incertitude et distribution",
+      "objective": "Mesurer dérive, calibration et échec hors distribution.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "WM-10",
+      "block": "WM",
+      "title": "Évaluation comparative",
+      "objective": "Comparer pixel, état latent, prédiction de récompense et performance de contrôle.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JEPA-01",
+      "block": "JEPA",
+      "title": "Architecture prédictive",
+      "objective": "Définir encodeur contexte, encodeur cible, prédicteur et objectif.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JEPA-02",
+      "block": "JEPA",
+      "title": "Masquage et cible",
+      "objective": "Étudier difficulté de prédiction, stop-gradient et mise à jour de l'enseignant.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JEPA-03",
+      "block": "JEPA",
+      "title": "Anti-effondrement",
+      "objective": "Analyser ce qui évite ou non une représentation constante.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JEPA-04",
+      "block": "JEPA",
+      "title": "JEPA image",
+      "objective": "Construire une expérience miniature et expliciter les écarts à I-JEPA.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JEPA-05",
+      "block": "JEPA",
+      "title": "JEPA vidéo",
+      "objective": "Étudier temporalité, cibles et évaluation des représentations.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JEPA-06",
+      "block": "JEPA",
+      "title": "Actions et planification latente",
+      "objective": "Formuler les composants supplémentaires nécessaires au contrôle.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JEPA-07",
+      "block": "JEPA",
+      "title": "Comparaison contrôlée",
+      "objective": "Comparer reconstruction, contraste et prédiction latente à encodeur et données fixés.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "JEPA-08",
+      "block": "JEPA",
+      "title": "Limites et recherche",
+      "objective": "Tester invariances utiles, information perdue et généralisation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PRJ-01",
+      "block": "PRJ",
+      "title": "Bibliothèques sans béquilles",
+      "objective": "Résoudre un problème numérique et produire un rapport graphique sans copier une solution.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PRJ-02",
+      "block": "PRJ",
+      "title": "GPT de bout en bout",
+      "objective": "Livrer corpus documenté, modèle, entraînement, génération et protocole d'évaluation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PRJ-03",
+      "block": "PRJ",
+      "title": "Raisonnement vérifiable",
+      "objective": "Comparer SFT, sélection et une méthode RL avec contrôle des budgets.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PRJ-04",
+      "block": "PRJ",
+      "title": "Diffusion contre flow matching",
+      "objective": "Comparer les deux sur mêmes données, capacités et budget d'évaluation.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PRJ-05",
+      "block": "PRJ",
+      "title": "World model pour le contrôle",
+      "objective": "Comparer modèle appris, modèle oracle et baseline sans modèle.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PRJ-06",
+      "block": "PRJ",
+      "title": "JEPA contre reconstruction",
+      "objective": "Comparer représentations et performance aval avec ablations.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    },
+    {
+      "id": "PRJ-07",
+      "block": "PRJ",
+      "title": "Reproduire un papier",
+      "objective": "Établir un plan de reproduction, journaliser les écarts et publier résultats négatifs compris.",
+      "status": "planned",
+      "lesson_path": null,
+      "solution_path": null,
+      "reference_path": null
+    }
+  ]
+}
